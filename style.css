@@ -1,0 +1,143 @@
+body{
+    margin: 0;
+    height: fit-content;
+    background-color: lavender;
+  }
+  
+  div.column_left img{
+    width: 175px;
+    height: 175px;
+    border-radius: 25px;
+    margin-left: 2%;
+  }
+  div.column_right img{
+    width: 200px;
+    height: 200px;
+    border-radius: 25%;
+    inline-size: fit-content;
+    margin-left: 10%;
+  }
+  
+  .header {
+    padding: 50px;
+    text-align: center;
+    background-image: url("image/painting.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  
+  .header h1{
+    text-align: center;
+    font-family: "Times New Roman";
+    color: purple;
+    text-shadow: 2px 2px 5px white;
+    font-size: xxx-large;
+  }
+  ul {
+    list-style-type: none;
+    margin: 4px;
+    padding: 0;
+    position: sticky;
+    top: 0;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-image: linear-gradient(to right, black, indigo);
+    z-index: 100;
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+  }
+  
+  .topnav a:hover {
+    background-image: url("image/spaceouse.gif");
+    background-position: center;
+    color: black;
+  }
+  
+  .active{
+    background-image: url("image/spaceouse.gif");
+    background-position: center;
+  }
+  
+  
+  div.header h3{
+    text-align: center;
+    color: purple;
+    margin-left: 35%;
+    margin-right: 35%;
+    border-radius: 100px;
+    backdrop-filter: blur(5px);
+  }
+  
+  .column_left{
+    float: left;
+    width: 15%;
+    height: fit-content;
+    padding: 15px;
+    border-radius: 10%;
+    margin: 15px;
+    color: white;
+    font-size: xx-large;
+    text-align: contain;
+  }
+  .column_right{
+    float: right;
+    width: 15%;
+    height: fit-content;
+    padding: 15px;
+    border-radius: 10%;
+    margin: 15px;
+    color: white;
+    font-size: xx-large;
+    text-align: contain;
+  }
+  .page{
+    height: fit-content;
+    padding: 15px;
+    background-image: url("image/outerspace-58.gif");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover
+  }
+  div.page h1{
+    color: white;
+    font-size: xx-large
+  }
+  .home img {
+    float: left;
+    border-radius: 10%;
+    padding: 15px;
+    position: relative;
+  }
+  
+  div.home {
+    height: fit-content;
+    backdrop-filter: blur(10px);
+    color: white;
+    font-size: large;
+    border-radius: 10%;
+    padding: 15px;
+    margin-right: 245px;
+    margin-left: 245px;
+  }
+  img.imgii {
+    width: 425px;
+    height: 300px;
+    border-radius: 10%;
+    padding: 15px;
+    position: relation;
+    float: left;
+  }
+  
+  
